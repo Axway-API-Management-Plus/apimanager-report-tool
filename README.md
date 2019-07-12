@@ -1,2 +1,4 @@
 # apimanager-report-tool
-Tool allowing you to create different reports about your API-Registry
+Create reports on top of you API-Manager to get insights. 
+
+This readme will be updated soon, for now please read more information [here](https://github.com/Axway-API-Management-Plus/apimanager-swagger-promote/wiki/8.-API-Manager-Report-tool)
