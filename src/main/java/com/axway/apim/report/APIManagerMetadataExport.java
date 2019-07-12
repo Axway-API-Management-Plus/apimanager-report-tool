@@ -70,18 +70,20 @@ public class APIManagerMetadataExport {
 			
 			CommandLine cmd = null;
 			
+			System.out.println("------------------------------------------------------------------------");
+			System.out.println("API-Manager Metadata-Export Version: "+APIManagerMetadataExport.class.getPackage().getImplementationVersion());
+			System.out.println("                                                                        ");
+			System.out.println("To report issues or get help, please visit: ");
+			System.out.println("https://github.com/Axway-API-Management-Plus/apimanager-report-tool");
+			System.out.println("------------------------------------------------------------------------");
+			System.out.println("");
+			
 			try {
 				cmd = parser.parse(options, args);
 			} catch (ParseException e) {
 				printUsage(options, e.getMessage());
 				System.exit(99);
 			}
-			LOG.info("------------------------------------------------------------------------");
-			LOG.info("API-Manager Metadata-Export Version: 1.0.0");
-			LOG.info("                                                                        ");
-			LOG.info("To report issues or get help, please visit: ");
-			LOG.info("https://github.com/Axway-API-Management-Plus/apimanager-swagger-promote");
-			LOG.info("------------------------------------------------------------------------");
 			
 			params = new CommandParameters(cmd);
 			

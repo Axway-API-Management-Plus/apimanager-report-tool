@@ -17,8 +17,6 @@ do
         CP=$CP:$jars
 done
 
-echo "Running API-Registry Metadata export version 1.0.0 ..."
-
 "$JAVA_HOME/bin/java" -Xms64m -Xmx256m -classpath "$CP" com.axway.apim.report.APIManagerMetadataExport $*
 rc=$?
 exit $rc

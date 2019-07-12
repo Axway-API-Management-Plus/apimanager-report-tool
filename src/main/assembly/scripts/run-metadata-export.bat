@@ -23,7 +23,6 @@ SET ERRNO=1
 GOTO :END
 
 :OkClassPath
-ECHO "Running API-Registry Metadata export version 1.0.0 ..."
 
 CD %currentDir%
 
