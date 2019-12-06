@@ -5,7 +5,7 @@
 	<artifactId>apimanager-report-tool</artifactId>
 	<groupId>com.github.axway-api-management-plus.report-tool</groupId>
 	<packaging>jar</packaging>
-	<version>1.0.0-SNAPSHOT</version>
+	<version>1.0.1-SNAPSHOT</version>
 	<name>Axway API-Manager Report tool</name>
 	<description>Flexible framework to generate different reports for you API-Manager registry.</description>
 	<url>https://github.com/Axway-API-Management-Plus/apimanager-report-tool</url>
