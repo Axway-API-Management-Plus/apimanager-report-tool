@@ -17,8 +17,10 @@ import com.axway.apim.lib.CommandParameters;
 import com.axway.apim.lib.ErrorCode;
 import com.axway.apim.lib.ErrorState;
 import com.axway.apim.lib.RelaxedParser;
+import com.axway.apim.report.formats.CSVAPISubscriptionReport;
 import com.axway.apim.report.formats.CSVCustomPolicyDependencyReport;
 import com.axway.apim.report.formats.CSVEmbeddedAnalyticsReport;
+import com.axway.apim.report.formats.ExcelAPISubscriptionReport;
 import com.axway.apim.report.formats.ExcelCustomPolicyDependencyReport;
 import com.axway.apim.swagger.APIManagerAdapter;
 
@@ -127,6 +129,8 @@ public class APIManagerMetadataExport {
 		System.out.println(CSVEmbeddedAnalyticsReport.class.getSimpleName()+":\nGenerates a report with APIs, Applications, Orgs and their relation to each other. (CSV-Format)");
 		System.out.println(CSVCustomPolicyDependencyReport.class.getSimpleName()+":\nTells you which APIs are using which Custom-Policies (CSV-Format)");
 		System.out.println(ExcelCustomPolicyDependencyReport.class.getSimpleName()+":\nTells you which APIs are using which Custom-Policies (Excel-Format)");
+		System.out.println(CSVAPISubscriptionReport.class.getSimpleName()+":\nReports application subscriptions to APIs (CSV-Format)");
+		System.out.println(ExcelAPISubscriptionReport.class.getSimpleName()+":\nReports application subscriptions to APIs (Excel-Format)");
 		System.out.println("\n");
 		System.out.println("ERROR: " + message);
 		System.out.println("\n");
