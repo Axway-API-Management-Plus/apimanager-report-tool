@@ -98,7 +98,6 @@ public class CSVCustomPolicyDependencyReport extends AbstractReportFormat implem
 					throw new AppException("Unable to close CSVWriter", ErrorCode.UNXPECTED_ERROR, ignore);
 				}
 		}
-		
 	}
 	
 	private void writePolicyTypeToCSV(CSVPrinter csvPrinter, Map<String, List<IAPI>> policies, String type) throws IOException, AppException {

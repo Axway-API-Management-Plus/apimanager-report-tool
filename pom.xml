@@ -28,7 +28,7 @@
 		<dependency>
 			<artifactId>axway-swagger-promote-core</artifactId>
 			<groupId>com.github.axway-api-management-plus.swagger-promote</groupId>
-			<version>1.6.0</version>
+			<version>1.6.4</version>
 		</dependency>
 		<dependency>
 			<groupId>org.apache.commons</groupId>

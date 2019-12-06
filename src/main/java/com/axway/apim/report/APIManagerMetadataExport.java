@@ -84,8 +84,11 @@ public class APIManagerMetadataExport {
 				printUsage(options, e.getMessage());
 				System.exit(99);
 			}
+			// Try workaround issue #219 we also have to provide some internal-commands - This can be removed with version 1.6.5
+			// We just give cmd a second time! 
 			
-			params = new CommandParameters(cmd);
+			params = new CommandParameters(cmd, cmd, null);
+			//params = new CommandParameters(cmd);
 			
 			APIManagerAdapter apimAdapter = APIManagerAdapter.getInstance();
 			APIExportMetadataHandler exportHandler = new APIExportMetadataHandler(apimAdapter, params.getValue("report"));
