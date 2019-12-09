@@ -88,7 +88,7 @@ public class CSVEmbeddedAnalyticsReport extends AbstractReportFormat implements 
 								method.getName(), 
 								"Front-End", 
 								app.getOrganizationId(), 
-								APIManagerAdapter.getInstance().getOrgName(app.getOrganizationId()), 
+								APIManagerAdapter.getInstance().getOrg(app.getOrganizationId()).getName(), 
 								df.format(getMidnight()
 						));
 						if( i % 50 == 0 ){
