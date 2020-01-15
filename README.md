@@ -2,12 +2,15 @@
 
 Use this tool to generate reports for your Axway API-Management V7.x platform. You can create reports such as:
 
-which for instance gives you insights about your actual API subscription.
+![API Subscription report][1]
 
-This tool is using Swagger-Promote-Core as a library for the API-Manager communication, that retrieves the required Data-Model, which is then easily converted into a report of choice.
+This report gives you details insights about the actual API-Subscription and can be further processed into other tools.
 
-With that you can export information from your API-Manager into different reports (right now two, but expecting more to come).  
-There is a dedicated script delivered with the release called: `run-metadata-export.sh`, which generates the following usage:
+Under the hood it is using Swagger-Promote-Core as a library for the API-Manager communication, that retrieves the required Data-Model, which is then easily converted into a report of choice. That way, many different reports can be generated. If you need a special report not yet part of the package, just create an [issue][2].
+
+With that you can export many different information from your API-Manager into different reports.  
+
+Call the script: `run-metadata-export.sh` delivered with the release, which generates the following usage:
 ```
 usage: API-Manager Meta-Data Export -f <api-mgr-prod-metadata-export.csv> [-h <api-host>] [-p <changeme>] [-port <8181>] -r
        <CSVEmbeddedAnalyticsReport> [-u <apiadmin>]
@@ -41,5 +44,5 @@ scripts\run-metadata-export.bat -h localhost -u apiadmin -p changeme -f custom-p
 For more information visit: https://github.com/Axway-API-Management-Plus/apimanager-swagger-promote/wiki
 ```
 
-This is an example report about used Custom-Policies:
-![Custom-Policies report]( https://github.com/Axway-API-Management-Plus/apimanager-swagger-promote/blob/develop/misc/images/custom-policy-export.png )
+[1]: images/API-Subscription-Report-Excel.png
+[2]: issues
