@@ -36,5 +36,5 @@ For more information visit: https://github.com/Axway-API-Management-Plus/apimana
 ```
 
 [1]: images/API-Subscription-Report-Excel.png
-[2]: issues
+[2]: ../../issues
 [3]: images/custom-policy-export.png
