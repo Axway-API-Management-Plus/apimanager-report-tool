@@ -5,6 +5,8 @@
 Checkout the new API-Manager CLI here:  
 https://github.com/Axway-API-Management-Plus/apim-cli
 
+---
+
 # Axway API-Manager Report tool
 
 Use this tool to generate reports for your Axway API-Management V7.x platform. You can create reports such as:
