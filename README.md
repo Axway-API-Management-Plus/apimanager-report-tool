@@ -1,6 +1,6 @@
 ![Project-Discontinued](https://img.shields.io/badge/Project-Discontinued-red)  
 
-# The report tool has been refactored into a new APIM-CLI, which is more powerful and supports more flexible use-cases.  
+# This report tool has been refactored into a new APIM-CLI, which is more powerful and supports more flexible use-cases.  
 
 Checkout the new API-Manager CLI here:  
 https://github.com/Axway-API-Management-Plus/apim-cli
